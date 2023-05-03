@@ -1,4 +1,5 @@
 // Additon problems for micro challenge
+
 // added 2 numbers together with a return
 function addTwoNumbers(firstNumber, secondNumber) {
     return firstNumber + secondNumber;
@@ -63,7 +64,6 @@ console.log('The numbers are the same!', num5 = num6);
 
 let array = [5, 4, 3, 7, 2];
 function sumArray() {
-  let sum = 0;
   let firstNumber = array[0]
   let secondnumber = array[array.length -1];
   console.log(firstNumber + secondnumber);
@@ -73,12 +73,23 @@ console.log('Total of first and last number of array!');
 sumArray();
 
 // created a second array that adds the first and last numbers
+
 let newArray = [8, 1, 6, 9, 10];
 function totalArray() {
-  let sum = 0;
   let firstNumber = newArray[0];
   let secondNumber = newArray[newArray.length -1];
   console.log(firstNumber + secondNumber);
 }
-console.log('Total of first and last number of the array!');
+console.log('Total of first and last number of the new array!');
 totalArray();
+
+// created a third array that adds the first and last numbers
+ let lastArray = [12, 34, 8, 17, 2, 42];
+ function totalOfArray() {
+  let firstNumber = lastArray[0];
+  let secondNumber = lastArray[lastArray.length -1];
+  console.log(firstNumber + secondNumber);
+
+ }
+ console.log('Total of the first and last number of the last array');
+ totalOfArray();
