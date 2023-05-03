@@ -58,3 +58,27 @@ function sameNumber() {
   
 }
 console.log('The numbers are the same!', num5 = num6);
+
+//Created an array that adds the first and last numbers
+
+let array = [5, 4, 3, 7, 2];
+function sumArray() {
+  let sum = 0;
+  let firstNumber = array[0]
+  let secondnumber = array[array.length -1];
+  console.log(firstNumber + secondnumber);
+
+}
+console.log('Total of first and last number of array!');
+sumArray();
+
+// created a second array that adds the first and last numbers
+let newArray = [8, 1, 6, 9, 10];
+function totalArray() {
+  let sum = 0;
+  let firstNumber = newArray[0];
+  let secondNumber = newArray[newArray.length -1];
+  console.log(firstNumber + secondNumber);
+}
+console.log('Total of first and last number of the array!');
+totalArray();
